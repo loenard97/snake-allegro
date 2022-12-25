@@ -1,0 +1,14 @@
+Source: snake
+Section: game
+Priority: optional
+Maintainer: Dennis Lönard, dennis.loenard97@gmx.de
+Build-Depends:
+Standards-Version: 3.9.2
+
+
+Package: snake
+Architecture: amd64
+Section: game
+Depends:
+Description: Snake Game
+	A little Snake Game.

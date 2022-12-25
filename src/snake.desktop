@@ -1,0 +1,4 @@
+[Desktop Entry]
+Type=Game
+Name=Snake
+Exec=/usr/bin/snake/main

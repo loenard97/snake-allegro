@@ -1,0 +1,5 @@
+/bin
+/dist
+/debian/.debhelper
+/debian/snake
+/package
