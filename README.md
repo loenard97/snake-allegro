@@ -8,7 +8,4 @@ because I wanted to start learning C.
 
 ## Known Issues
  - Memory leak when moving snake
- - Apple might spawn inside wall
  - Fast direction changes can lead to snake turning on one pixel and dying instantly
- - Code could be much cleaner
- - Add option to change speed

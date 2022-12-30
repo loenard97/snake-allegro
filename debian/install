@@ -1,1 +1,2 @@
-bin/main usr/bin
+bin/snake/main usr/bin/snake
+src/snake.desktop usr/share/applications

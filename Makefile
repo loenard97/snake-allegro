@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -I/usr/include/x86_64-linux-gnu -lallegro_main -lallegro_font -lallegro_image -lallegro_primitives -lallegro -Wall -Wextra -Werror -g
 SRC = src/main.c
-BIN = bin/main
+BIN = bin/snake/main
 
 .PHONY: all bin dist build clean
 
@@ -10,7 +10,7 @@ all: bin
 	$(CC) $(SRC) -o $(BIN) $(CFLAGS)
 
 bin:
-	mkdir -p bin
+	mkdir -p bin/snake
 
 run:
 	./$(BIN)
